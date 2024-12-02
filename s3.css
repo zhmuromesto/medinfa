@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(234, 169, 234, 0.948);
+    color: rgba(66, 3, 59, 0.832);
+    margin: 5px;
+    padding: 2px;
+}
+header,
+footer,h2, h4,nav{
+ text-align: center;
+ background-color: rgb(253, 72, 199);
+ p{
+ text-align: right;
+ }
+}
+
+
+h3{
+    background-color: rgb(224, 28, 185);
+}
+
+
+
+h4{
+    background-color: rgb(186, 6, 150);
+}
