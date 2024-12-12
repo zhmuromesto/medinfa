@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(127, 165, 188, 0.948);
+    color: rgba(1, 11, 17, 0.832);
+    margin: 4px;
+    padding: 2px;
+    text-decoration: solid;
+    text-decoration-thickness:50px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.letter1 {
+    color:black;
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+
+P::first-letter {
+    font-size: 120%;
+    color:darkmagenta;
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+header,
+footer, h4,nav{
+ text-align: center;
+ background-color: rgb(205, 217, 220);
+ 
+}
+
+p{  
+    text-indent: 8ch;
+    text-align: justify;
+    }
+
+h1{
+        background-color: rgb(216, 187, 146);
+        font-style: italic;
+        font-weight:700;
+    }
+    
+
+
+h2{
+    background-color: rgb(216, 187, 146);
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+
+
+h3{
+    background-color: rgb(217, 179, 121);
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+h4{
+    background-color: rgb(232, 222, 202);
+    text-decoration: underline;
+}
+
+.container {
+    border: 2px ridge rgb(0, 0, 0);
+    background-color: rgb(228, 207, 247);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container img {
+    width: 500px;
+    height:500px;
+    
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+  
